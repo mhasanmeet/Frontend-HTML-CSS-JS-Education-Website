@@ -1,0 +1,112 @@
+/* Reusable Root CSS */
+
+:root{
+
+    /* color */
+    --red-orange-color-wheel: hsl(15, 100%, 55%);
+    --red-orange-color-wheel-hover: hsl(15, 82%, 49%);
+    --ultramarine-blue: hsl(217, 100%, 50%);
+    --lavender-blue: hsl(229, 84%, 91%);
+    --oxford-blue: hsl(229, 84%, 12%);
+    --light-grey: hsl(0, 0%, 80%);
+    --sonic-sliver: hsl(0, 0%, 47%);
+    --blue-crayola: hsl(216, 98%, 52%);
+    --cultured: hsl(228, 26%, 96%);
+    --white: white;
+
+    /* typography */
+    --fs-1: 38px;
+    --fs-2: 35px;
+    --fs-3: 30px;
+    --fs-4: 22px;
+    --fs-5: 20px;
+    --fs-6: 15px;
+
+    /* Font Weight */
+    --fw-5: 500;
+    --fw-6: 600;
+    --fw-7: 700;
+    --fw-8: 800;
+    --fw-9: 900;
+
+    /* Spacing */
+    --px: 15px;
+    --py: 80px;
+
+    /* transition */
+    /* default Transition */
+    --dfat-trans: 0.50s ease;
+
+    /* shadow  Ref: joshwcomeau.com/css/introducing-shadow-palette-generator */ 
+    --shadow-color: 15deg 36% 58%;
+    --shadow-elevation-low: 2px 4px 8px hsl(var(--shadow-color));
+    --shadow-elevation-medium: 2px 4px 8px hsl(var(--shadow-color) / 0.5);
+    --shadow-elevation-high: 2px 4px 8px hsl(var(--shadow-color) / 0.1);
+}
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    font: inherit;
+}
+
+img, span, a, .material-icons-outlined{
+    display: block;
+}
+
+button{
+    background: none;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+}
+
+html{
+    font-family: Nunito;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: var(--light-grey);
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background: var(--red-orange-color-wheel);
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: var(--ultramarine-blue);
+}
+
+
+/* Reusable Style */
+.section-subtitle{
+    color: var(--ultramarine-blue);
+    font-weight: var(--fw-7);
+    text-transform: uppercase;
+}
+
+.section-title{
+    font-size: var(--fs-2);
+    font-weight: var(--fw-8);
+}
+
+.section-text{
+    color: var(--sonic-sliver);
+    font-size: var(--fs-6);
+    line-height: 1.6;
+}
