@@ -1,6 +1,6 @@
 ## HTML CSS JavaScript Education Website
 
-[Tutorial Link](Video: https://www.youtube.com/watch?v=1ygRRP-y9pw&t=1137s)
+[Tutorial Link](https://www.youtube.com/watch?v=1ygRRP-y9pw&t=1137s)
 
 ### Main Feature: 
 * css Animation
