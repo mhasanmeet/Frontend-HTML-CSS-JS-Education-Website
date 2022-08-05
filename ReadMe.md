@@ -1,7 +1,4 @@
 ## HTML CSS JavaScript Education Website
-
-[Tutorial Link](https://www.youtube.com/watch?v=1ygRRP-y9pw&t=1137s)
-
 ### Main Feature: 
 * css Animation
 * Use Sematic HTML
@@ -20,4 +17,24 @@
 ### Can Be extended in 
 * Testimonial Slider
 * Blog text truncate
+
+### Screen Breakpoints
+* 375px
+* 575px
+* 767px
+* 850px
+* 992px
+* 1200px
+
+### Images
+
+For Large Screen
+![Larger Screen](./large-screen.png)
+
+For Mobile Screen
+![Larger Screen](./mobile-screen.png)
+
+### Tutorial Link
+
+[Tutorial Link](https://www.youtube.com/watch?v=1ygRRP-y9pw&t=1137s)
 

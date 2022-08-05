@@ -7,7 +7,7 @@
 .container{
     background: var(--white);
     width: 100%;
-    max-width: 1440px;
+    /* max-width: 1440px; */
     margin: auto;
     overflow: hidden;
 }
@@ -18,7 +18,7 @@
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
-    max-width: 1440px;
+    /* max-width: 1440px; */
     background: var(--cultured);
     backdrop-filter: blur(15px);
     display: flex;

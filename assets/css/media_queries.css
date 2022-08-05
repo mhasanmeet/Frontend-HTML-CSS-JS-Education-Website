@@ -52,7 +52,6 @@
     }
 }
 
-
 @media (min-width: 575px){
     :root{
         --px: 30px;
@@ -140,7 +139,6 @@
         font-size: 37px;
     }
 }
-
 
 @media (min-width: 767px){
     :root{
@@ -431,6 +429,6 @@
      /*Contact*/
      .contact-card h2{
         font-size: 45px;
-     }
+    }
 
 }
