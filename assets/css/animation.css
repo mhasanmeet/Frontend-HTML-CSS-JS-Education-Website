@@ -16,7 +16,7 @@
 }
 
 .smooth-zigzag-anim1{
-    animation: smooth-zigzag-anim1 5s infinite;
+    animation: smooth-zigzag-anim1 5s linear infinite;
 }
 
 @keyframes smooth-zigzag-anim1{
@@ -28,7 +28,7 @@
 }
 
 .smooth-zigzag-anim2{
-    animation: smooth-zigzag-anim1 5s infinite;
+    animation: smooth-zigzag-anim2 5s linear infinite;
 }
 
 @keyframes smooth-zigzag-anim2{
@@ -37,4 +37,26 @@
     25% {transform: translate(-10px, -10px);}
     50% {transform: translate(-5px, -5px);}
     75% {transform: translate(-10px, 5px);}
+}
+
+.smooth-zigzag-anim3{
+    animation: smooth-zigzag-anim3 5s linear infinite;
+}
+
+@keyframes smooth-zigzag-anim3{
+    0%,
+    100% {transform: translate(0);}
+    25% {transform: translate(-7px, -7px);}
+    50% {transform: translate(-14px, -14px);}
+    75% {transform: translate(-7px, -7px);}
+}
+
+.pulse-anim{
+    animation: pulse 3s linear infinite;
+}
+
+@keyframes pulse{
+    0%,
+    70% {box-shadow: 0 0 0 0 hsla(0, 0%, 100%, 1);}
+    100% {box-shadow: 0 0 0 15px transparent;}
 }
