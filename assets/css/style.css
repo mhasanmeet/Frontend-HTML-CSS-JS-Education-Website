@@ -60,7 +60,7 @@
     color: var(--red-orange-color-wheel);
 }
 
-.navbar-nav .active{
+.navbar-nav.active{
     animation: menuPopUp 0.5s forwards;
     pointer-events: all;
 }
@@ -148,7 +148,7 @@
     width: 26px;
     height: 2px;
     border-radius: 1px;
-    transition: var(--dfat-trans);
+    transition: var(--default-transition);
 }
 
 .nav-toggle-btn.active .one{

@@ -35,7 +35,7 @@
 
     /* transition */
     /* default Transition */
-    --dfat-trans: 0.50s ease;
+    --default-transition: 0.50s ease;
 
     /* shadow  Ref: joshwcomeau.com/css/introducing-shadow-palette-generator */ 
     --shadow-color: 15deg 36% 58%;
