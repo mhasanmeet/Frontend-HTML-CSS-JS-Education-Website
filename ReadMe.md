@@ -17,7 +17,7 @@
 * not use CSS BEM structure
 * overuse of css, many css can be minimize
 
-## Can Be extended in 
+### Can Be extended in 
 * Testimonial Slider
-* Blog some reding text
+* Blog text truncate
 

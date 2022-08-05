@@ -94,14 +94,18 @@
     overflow: hidden;
 }
 
-.menu-btn-try:hover{
+.menu-btn-try{
+   display: none;
+}
+
+/* .menu-btn-try:hover{
     background: var(--red-orange-color-wheel-hover); 
 }
 
 .menu-btn-try .btn-text{
     position: relative;
     z-index: 5;
-}
+} */
 
 /* Nav Toggle Button */
 .btn-primary{
@@ -166,7 +170,7 @@
 /* Home */
 .home{
     position: relative;
-    margin-top: 80px;
+    margin-top: 70px;
     padding: var(--py) var(--px) 0;
     overflow: hidden; 
 }
@@ -295,7 +299,7 @@
 }
 
 .home-right .icon-1{
-    top: 200px;
+    top: 250px;
     left: 20px;
 }
 
@@ -343,7 +347,7 @@
     border: 1px solid hsl(0, 0%, 67%);
     border-radius: 8px;
     padding: 25px;
-    margin: 30px 0;
+    /* margin: 30px 0; */
     transition: var(--default-transition);
 }
 
