@@ -32,6 +32,7 @@ For Large Screen
 ![Larger Screen](./large-screen.png)
 
 For Mobile Screen
+
 ![Larger Screen](./mobile-screen.png)
 
 ### Tutorial Link
