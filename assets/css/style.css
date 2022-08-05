@@ -306,7 +306,6 @@
 .home-right .icon-4{
     top: 60px;
     right: 20px;
-    filter: drop-shadow(0 8px 30px hsla(350, 100%, 68%, 0.5));
 
 }
 
@@ -445,8 +444,9 @@
     align-items: center;
     gap: 15px;
     
-    max-width: 80%;
+    max-width: 70%;
     margin: auto;
+    text-align: left;
     /* padding: 5px 0; */
 }
 
@@ -465,6 +465,11 @@
 
 .about-ul li:not(:last-child){
     margin-bottom: 30px;
+}
+
+.about .btn-primary {
+    display: block;
+    margin: auto;
 }
 
 /* Course */
