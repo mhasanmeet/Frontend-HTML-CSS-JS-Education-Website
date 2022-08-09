@@ -35,7 +35,7 @@ For Mobile Screen
 
 ![Larger Screen](./mobile-screen.png)
 
-### Tutorial Link
-
-[Tutorial Link](https://www.youtube.com/watch?v=1ygRRP-y9pw&t=1137s)
+<!-- ### Tutorial Link
+[Tutorial Link](https://www.youtube.com/watch?v=1ygRRP-y9pw&t=1137s) 
+-->
 
